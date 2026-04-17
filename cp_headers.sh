@@ -95,7 +95,7 @@ HEADER_OVERRIDES="\
 cd ../../../..
 
 source build/envsetup.sh
-lunch 50
+lunch aosp_xqfe54-trunk_staging-userdebug
 
 for x in $LINUX_HEADERS; do \
 cp $HEADER_SRC/$x $HEADER_ORI/$x
